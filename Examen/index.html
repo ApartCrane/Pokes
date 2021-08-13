@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokes</title>
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: rgb(140, 232, 248);
+        }
+    </style>
+
+    <center>
+        <h1>Examen Pokes</h1>
+    </center>
+    <br><br>
+    <form method="POST">
+        <h2>Nombre:</h2>
+        <input type="text" id="name" required placeholder="Diego">
+        <br><br>
+        <h2>Primer Apellido:</h2>
+        <input type="text" id="apellido" required placeholder="Fernandez">
+        <br><br>
+        <h2>Segundo Apellido:</h2>
+        <input type="text" id="lbl_apellido2" required placeholder="García">
+        <br><br>
+        <h2>Pokemon Favorito:</h2>
+
+        <label>Seleccione:</label>
+        <select name="lista" id="pokemon"></select>
+        <br><br>
+        <button onclick="btn-create()" type="submit" class=><i
+        class="fas fa-plus"></i>Agregar:</button>
+        <br><br>
+    </form>
+<br><br>
+    <form method="POST">
+        <h2>Nombre:</h2>
+        <input type="text" id="name" required>
+        <br><br>
+        <h2>Primer Apellido:</h2>
+        <input type="text" id="apellido" required>
+        <br><br>
+        <h2>Segundo Apellido:</h2>
+        <input type="text" id="lbl_apellido2" required>
+        <br><br>
+        <h2>Pokemon Favorito:</h2>
+
+        <label>Seleccione:</label>
+        <select name="lista" id="pokemon"></select>
+        <br><br>
+        <button onclick="btn-create()" type="submit" class="btn btn-success"><i
+        class="fas fa-plus"></i>Actualizar :</button>
+        <br><br>
+    </form>
+    <form method="POST">
+        <h2>Nombre:</h2>
+        <input type="text" id="name" required>
+        <br><br>
+        <h2>Primer Apellido:</h2>
+        <input type="text" id="apellido" required>
+        <br><br>
+        <h2>Segundo Apellido:</h2>
+        <input type="text" id="lbl_apellido2" required>
+        <br><br>
+        <h2>Pokemon Favorito:</h2>
+
+        <label>Seleccione:</label>
+        <select name="lista" id="pokemon"></select>
+        <br><br>
+        <button onclick="btn-create()" type="submit" class="btn btn-success"><i
+        class="fas fa-plus"></i>Eliminar :</button>
+        
+        <br><br>
+    </form>
+</body>
+</html>
